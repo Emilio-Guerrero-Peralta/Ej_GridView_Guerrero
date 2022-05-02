@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 class Paginaincial extends StatefulWidget {
   const Paginaincial({Key? key}) : super(key: key);
   @override
-  _Paginaincial createState() => _Paginaincial();
+  _Paginaincialstate createState() => _Paginaincialstate();
 } // Widget con estado
 
-class _Paginaincial extends State<Paginaincial> {
+class _Paginaincialstate extends State<Paginaincial> {
   List<String> images = [
     "assets/images/Pizza1.png",
     "assets/images/Pizza2.jpg",
@@ -25,7 +25,7 @@ class _Paginaincial extends State<Paginaincial> {
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
+            crossAxisCount: 4,
           ),
           childrenDelegate: SliverChildBuilderDelegate(
             (BuildContext, index) {
