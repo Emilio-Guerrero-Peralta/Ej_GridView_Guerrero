@@ -33,7 +33,7 @@ class _Paginaincialstate extends State<Paginaincial> {
         drawer: Drawer(),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 1,
+            crossAxisCount: 2,
           ),
           childrenDelegate: SliverChildBuilderDelegate(
             (BuildContext, index) {
