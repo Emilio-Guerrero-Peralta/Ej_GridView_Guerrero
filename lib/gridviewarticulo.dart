@@ -21,7 +21,7 @@ class _Paginaincialstate extends State<Paginaincial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text(" GridView EmilioGP"),
+          title: const Text("Catalago de pizzas"),
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
