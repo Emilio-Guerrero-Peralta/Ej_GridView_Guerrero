@@ -22,6 +22,13 @@ class _Paginaincialstate extends State<Paginaincial> {
     return Scaffold(
         appBar: AppBar(
           title: const Text("Catalago de pizzas"),
+          centerTitle: true,
+          actions: [
+            Icon(Icons.delivery_dining),
+            Icon(Icons.add_business),
+            Icon(Icons.more_vert)
+          ],
+          elevation: 8,
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
