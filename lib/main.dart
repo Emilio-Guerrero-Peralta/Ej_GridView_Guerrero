@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:guerrero/gridviewarticulo.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(PizzeriaApp());
 }
 
-class MyApp extends StatelessWidget {
+class PizzeriaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -14,6 +14,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.red,
         ), // tema global
-        home: const MyHomePage());
+        home: const Paginaincial());
   }
 } //Widget sin estado

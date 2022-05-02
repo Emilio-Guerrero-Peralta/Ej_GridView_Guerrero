@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+class Paginaincial extends StatefulWidget {
+  const Paginaincial({Key? key}) : super(key: key);
   @override
   _MyHomePageState createState() => _MyHomePageState();
 } // Widget con estado
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<Paginaincial> {
   List<String> images = [
     "assets/images/Pizza1.png",
     "assets/images/Pizza2.jpg",
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             childCount: 8,
           ),
-          padding: const EdgeInsets.all(10),
+          padding: const EdgeInsets.all(15),
           shrinkWrap: true,
         ));
   } // Widgets
