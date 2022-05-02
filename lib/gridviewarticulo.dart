@@ -25,7 +25,7 @@ class _Paginaincialstate extends State<Paginaincial> {
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 4,
+            crossAxisCount: 1,
           ),
           childrenDelegate: SliverChildBuilderDelegate(
             (BuildContext, index) {
